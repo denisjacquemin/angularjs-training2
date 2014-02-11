@@ -11,8 +11,16 @@
 
 	
 	<div class="container" id="HB_main-container">
+        <div class="row" ng-include="'app/shared/navbar.html'"></div>
 
-		<!-- PUT THE CODE HERE -->
+        <div class="row" id="HB_welcome-page">
+            <div class="jumbotron">
+                <h1>Welcome to the HeineBier Application!</h1>
+                <p>This application is a tutorial for AngularJS</p>
+            </div>
+		</div>
+
+        <div class="row" ng-include="'app/shared/footer.html'" id="HB_footer"></div
 
 	</div>
 
@@ -27,6 +35,9 @@
 
 	<!-- Our files below -->
     <script src="app.js"></script>
+    <script src="app/shared/httpSrvc.js"></script>
+    <script src="app/shared/authSrvc.js"></script>
+    <script src="app/welcome/usernameCtrl.js"></script>
 
 </body>
 </html>
