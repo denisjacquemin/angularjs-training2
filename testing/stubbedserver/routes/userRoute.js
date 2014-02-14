@@ -40,7 +40,7 @@ exports.postUser = function(req, res) {
 exports.deleteUser = function(req, res) {
     setTimeout(function() {
         res.json(200);
-    }, 100);
+    }, 2000);
 };
 
 exports.updateUser = function(req, res) {
