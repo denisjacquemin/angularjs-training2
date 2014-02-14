@@ -1,4 +1,4 @@
-/* global myApp */
+/* global hbApp */
 /* jslint node: true */ // use strict at top
 
 "use strict";
